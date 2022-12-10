@@ -1,0 +1,21 @@
+.logo {
+	display: inline-block;
+	font-family: var(--secondary-font);
+	font-weight: 700;
+	font-size: 26px;
+	line-height: calc(31/26);
+	letter-spacing: 0.03em;
+	text-decoration: none;
+}
+
+.logo-bl {
+	color: var(--black-txt-cl);
+}
+
+.logo-wh {
+	color: var(--light-txt-cl);
+}
+
+.logo-blue {
+	color: var(--accent-txt-cl);
+}
