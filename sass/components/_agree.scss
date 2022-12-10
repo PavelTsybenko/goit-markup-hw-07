@@ -1,0 +1,22 @@
+.agree {
+    display: flex;
+    align-items: center;
+}
+
+.agree::before {
+    margin-right: 8px;
+    content: '';
+    display: flex;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #212121;
+    border-radius: 2px;
+    padding: 2px;
+}
+.check-line input:checked+.agree::before {
+    background-color: #2196f3;
+    border: none;
+    background-image: url(../images/check-mark.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
